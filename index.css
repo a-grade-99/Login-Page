@@ -26,10 +26,12 @@ body{
     inset 0 0 5px rgba(255, 255, 255, 0.4),
     inset 0 5px 10px rgba(255, 255, 255, 0.3),
     inset 0 10px 20px rgba(255, 255, 255, 0.2);
+
+    display: flex;
 }
 
 .login{
-    margin: 2rem 0 0 2rem;
+    margin: 3rem 0 0 4rem;
 }
 
 input:focus:invalid{
@@ -38,4 +40,8 @@ input:focus:invalid{
 
 input:focus:valid{
     border: 1px solid green;
+}
+
+.register{
+    margin: 3rem 0 0 18rem;
 }
