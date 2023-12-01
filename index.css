@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(187, 122, 51);
+    background-color: #2B7A78;
 }
 
 .container{
@@ -17,7 +17,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(244, 244, 244);
     
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1),
     0 5px 10px rgba(0, 0, 0, 0.2),
@@ -30,4 +30,12 @@ body{
 
 .login{
     margin: 2rem 0 0 2rem;
+}
+
+input:focus:invalid{
+    border: 1px solid red;
+}
+
+input:focus:valid{
+    border: 1px solid green;
 }
