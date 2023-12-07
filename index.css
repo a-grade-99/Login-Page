@@ -79,13 +79,12 @@ button{
     margin-bottom: 1.5rem;
 }
 
-/* MAKING THE LABELS ONLY APPEAR WHEN YOU CLICK THE INPUT */
 .login_user label,
 .login_pass label,
-.register1 label,
-.register2 label,
-.register3 label,
-.register4 label,
-.register5 label {
-    display: none; /* Initially hide all labels */
+.reg_name label,
+.reg_username label,
+.reg_email label,
+.reg_pass label,
+.reg_verify label{
+    text-align: center;
 }
