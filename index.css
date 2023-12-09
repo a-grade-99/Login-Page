@@ -6,18 +6,20 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* Background Image of the Project */
 body{
-    font-family: 'Roboto', sans-serif;
     background-image: url(mountain.png);
 }
 
+
+/* Styling of the container (Making it glasslike, borders, etc) */
 .container{
-    background: rgba(255, 253, 253, 0.08);
-    border-radius: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 3px solid rgba(0, 0, 0, 1);
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 0px 20px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(2.7px );
+    -webkit-backdrop-filter: blur( 2.7px );
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
 
     width: 800px;
     height: 500px;
@@ -30,6 +32,8 @@ body{
     justify-content: space-between;
 }
 
+
+/* Styling of the login and register */
 .login h2,
 .register h2 {
     text-align: center;
@@ -44,6 +48,8 @@ body{
     margin: 2rem 5rem 0 0;
 }
 
+
+/* Styling of each input */
 #username, #password, #name, #new_username, #new_password, #email, #verify{
     border: none;
     border-bottom: 2px solid black;
@@ -61,6 +67,8 @@ body{
     outline: none;
 }
 
+
+/* Styling of the buttons */
 button{
     width: 100%;
     height: 2rem;
@@ -72,7 +80,7 @@ button{
 }
 
 .bold{
-    color: white;
+    color: rgb(36, 36, 36);
 }
 
 .remember_text{
